@@ -43,7 +43,7 @@ header{
     background: none !important;
 }
 .dp-sibanje{
-    background-image: url('../img/sibanje.jpg');
+    background: linear-gradient(238.64deg, rgba(255, 153, 0, 0.85) 38.72%, rgba(255, 255, 255, 0.85) 80.77%);
     background-repeat: no-repeat;
     background-size: cover;
 }
