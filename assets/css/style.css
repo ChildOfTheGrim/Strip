@@ -50,7 +50,14 @@ header{
 .dp-selection{
     width: 30%;
 }
+.dp-selection img{
+    width: 200px;
+    height: 300px;
+}
 .dp-selection:hover{
     transform: scale(1.1);
     transition: 0.5s;
+}
+.dp-slika-katalog img{
+    width: 100% !important;
 }
