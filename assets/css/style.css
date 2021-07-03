@@ -58,6 +58,13 @@ header{
     transform: scale(1.1);
     transition: 0.5s;
 }
-.dp-slika-katalog img{
-    width: 100% !important;
+.dp-slika-izlog img{
+    width: 200px;
+    height: 300px;
+}
+
+@media screen and (max-width: 770px){
+    .dp-selection{
+        width: 48% !important;
+    }
 }
