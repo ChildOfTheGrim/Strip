@@ -43,9 +43,10 @@ header{
     background: none !important;
 }
 .dp-sibanje{
-    background: linear-gradient(238.64deg, rgba(255, 153, 0, 0.85) 38.72%, rgba(255, 255, 255, 0.85) 80.77%);
+    background: url('../img/bitka.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 .dp-selection{
     width: 30%;
@@ -62,9 +63,70 @@ header{
     width: 200px;
     height: 300px;
 }
+.dp-font{
+    font-size: 50px;
+}
+footer .container .row .col-12 p a{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5px;
+}
+
+@media screen and (max-width: 1030px){
+    .dp-item h5{
+        font-size: 12px;
+    }
+    .dp-item p{
+        font-size: 10px;
+    }
+    .dp-font{
+        font-size: 30px;
+    }
+}
 
 @media screen and (max-width: 770px){
-    .dp-selection{
-        width: 48% !important;
+    .dp-banner img, .dp-bg-opacity .container .row .col-12 img{
+        width: 300px;
+    }
+    .dp-banner h1{
+        font-size: 20px;
+    }
+    .dp-banner p{
+        font-size: 14px;
+    }
+    .dp-bg-opacity .row .col-12 h2{
+        font-size: 14px;
+    }
+    .dp-bg-opacity .row .col-12 p{
+        font-size: 12px;
+    }
+    footer .dp-bg-opacity h4{
+        font-size: 14px;
+    }
+    footer .dp-bg-opacity ul li{
+        font-size: 12px;
+    }
+    footer .col-12 p{
+        font-size: 12px;
+    }
+    .dp-font{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .dp-slika-izlog img, .dp-selection img{
+        height: 400px;
+    }
+    .col-sm-6 form, .dp-selection{
+        margin-bottom: 50px;
+    }
+    .dp-lowrez-padding{
+        padding-left: 0px !important;
+    }
+    .dp-font{
+        font-size: 12px;
+    }
+    footer h4, footer ul{
+        text-align: center !important;
     }
 }
